@@ -1,0 +1,353 @@
+version: "3.1"
+nlu:
+- intent: diadiemdulich
+  examples: |
+    - Tôi muốn tìm địa điểm du lịch
+    - Cho tôi biết về các địa điểm du lịch
+    - Đề xuất cho tôi những điểm du lịch
+    - Cho tôi biết một số địa điểm du lịch nổi tiếng
+    - Tìm địa điểm du lịch nổi tiếng
+    - Tìm địa điểm nổi tiếng
+    - Tìm địa điểm du lịch
+    - Địa điểm du lịch nổi tiếng
+- intent: chao_hoi
+  examples: |
+    - hi
+    - helo
+    - hello
+    - hola
+    - alo
+    - a lô
+    - Xin chào
+    - Chào bạn
+    - Bạn khỏe không?
+    - Có ai ở đó không?
+    - Xin chào các bạn
+    - Chào buổi sáng
+    - Chào buổi tối
+- intent: tam_biet
+  examples: |
+    - bye
+    - bye bye
+    - Tạm biệt
+    - Chúc một ngày tốt lành
+    - Hẹn gặp lại
+    - Gặp lại sau nhé
+    - Tôi sẽ quay lại
+- intent: cam_on
+  examples: |
+    - Tôi cảm ơn
+    - Cảm ơn bạn
+    - Điều đó hữu ích
+    - Tuyệt vời, cảm ơn
+    - Tôi cảm ơn vì đã giúp đỡ tôi
+- intent: khong_hieu_cau_hoi
+  examples: |
+    - kkkk
+    - pi
+    - bla bla
+- intent: ho_tro
+  examples: |
+    - Tôi cần giúp
+    - Tôi cần giúp đỡ
+    - Tôi cần giúp một số việc
+    - Tôi cần hỏi 1 số việc
+    - Tôi cần hỗ trợ
+    - Hõ trợ giúp tôi
+    - Tôi cần tư vấn
+    - Tư vấn giúp tôi
+    - Tôi cần thông tin
+    - Tôi cần gặp admin
+- intent: thoi_tiet_tot_nhat
+  examples: |
+    - Khi nào là thời gian tốt nhất để đến Đà Lạt?
+    - Thời gian tốt nhất để đến Đà Lạt là khi nào?
+    - Thời gian tốt nhất ở Đà Lạt là khi nào?
+    - Thời tiết Đà Lạt như thế nào?
+    - Thời tiết thời gian tốt nhất ở Đà Lạt
+    - Tìm thời tiết theo tháng ở Đà Lạt
+    - Thời tiết tháng tốt nhất ở Đà Lạt
+    - Làm thế nào để biết thời tiết?
+- intent: tim_thang_1_den_thang_3
+  examples: |
+    - Tìm kiếm từ tháng 1 đến tháng 3
+    - Tìm kiếm tháng 1 đến tháng 3
+    - Mùa 1
+    - Tôi muốn biêt thông tin mùa 1
+    - Xem mùa 1
+    - Xem thông tin mùa 1
+    - Tìm kiếm tháng 1
+    - Tháng 1
+    - Tôi muốn biêt thông tin tháng 1
+    - Xem tháng 1
+    - Xem thông tin tháng 1
+    - Tìm kiếm tháng 2
+    - Tháng 2
+    - Tôi muốn biêt thông tin tháng 2
+    - Xem tháng 2
+    - Xem thông tin tháng 2
+    - Tìm kiếm tháng 3
+    - Tháng 3
+    - Tôi muốn biêt thông tin tháng 3
+    - Xem tháng 3
+    - Xem thông tin tháng 3
+- intent: tim_thang_4_den_thang_6
+  examples: |
+    - Tìm kiếm từ tháng 4 đến tháng 6
+    - Tìm kiếm tháng 4 đến tháng 6
+    - Mùa 2
+    - Tôi muốn biêt thông tin mùa 2
+    - Xem mùa 2
+    - Xem thông tin mùa 2
+    - Tìm kiếm tháng 4
+    - Tháng 4
+    - Tôi muốn biêt thông tin tháng 4
+    - Xem tháng 4
+    - Xem thông tin tháng 4
+    - Tìm kiếm tháng 5
+    - Tháng 5
+    - Tôi muốn biêt thông tin tháng 5
+    - Xem tháng 5
+    - Xem thông tin tháng 5
+    - Tìm kiếm tháng 6
+    - Tháng 6
+    - Tôi muốn biêt thông tin tháng 6
+    - Xem tháng 6
+    - Xem thông tin tháng 6
+- intent: tim_thang_7_den_thang_9
+  examples: |
+    - Tìm kiếm từ tháng 7 đến tháng 9
+    - Tìm kiếm tháng 7 đến tháng 9
+    - Mùa 3
+    - Tôi muốn biêt thông tin mùa 3
+    - Xem mùa 3
+    - Xem thông tin mùa 3
+    - Tìm kiếm tháng 7
+    - Tháng 7
+    - Tôi muốn biêt thông tin tháng 7
+    - Xem tháng 7
+    - Xem thông tin tháng 7
+    - Tìm kiếm tháng 8
+    - Tháng 8
+    - Tôi muốn biêt thông tin tháng 8
+    - Xem tháng 8
+    - Xem thông tin tháng 8
+    - Tìm kiếm tháng 9
+    - Tháng 9
+    - Tôi muốn biêt thông tin tháng 9
+    - Xem tháng 9
+    - Xem thông tin tháng 9
+- intent: tim_thang_10_den_thang_12
+  examples: |
+    - Tìm kiếm từ tháng 10 đến tháng 12
+    - Tìm kiếm tháng 10 đến tháng 12
+    - Mùa 4
+    - Tôi muốn biêt thông tin mùa 4
+    - Xem mùa 4
+    - Xem thông tin mùa 4
+    - Tìm kiếm tháng 10
+    - Tháng 10
+    - Tôi muốn biêt thông tin tháng 10
+    - Xem tháng 10
+    - Xem thông tin tháng 10
+    - Tìm kiếm tháng 11
+    - Tháng 11
+    - Tôi muốn biêt thông tin tháng 11
+    - Xem tháng 11
+    - Xem thông tin tháng 11
+    - Tìm kiếm tháng 12
+    - Tháng 12
+    - Tôi muốn biêt thông tin tháng 12
+    - Xem tháng 12
+    - Xem thông tin tháng 12
+- intent: tong_chi_phi
+  examples: |
+    - Tổng chi phí
+    - Tổng tiền
+    - Tổng tiền là nhiêu
+    - bao nhiêu tiền đủ đi đến Đà Lạt?
+    - Bao nhiêu tiền có thể đi Đà Lạt
+    - Tổng chi phí bao nhiêu?
+    - Tổng chi phí bao nhiêu cho hành trình?
+    - Tổng chi phí cho chuyến đi Đà Lạt là bao nhiêu?
+    - Chuyến đi tổng chi phí bao nhiêu?
+    - Tổng chi phí là bao nhiêu phù hợp
+- intent: phuong_tien_den_da_lat
+  examples: |
+    - Phương tiện nào để đến Đà Lạt?
+    - Bạn có thể cho tôi thông tin về các phương tiện để đến Đà Lạt không?
+    - Phương tiện đi lại Đà Lạt cho tôi
+    - Phương tiện đi lại Đà Lạt
+    - Xe cộ phương tiện gì
+    - Cho tôi biết một số phương tiện để đến đây?
+- intent: tim_may_bay
+  examples: |
+    - Tìm dịch vụ du lịch Đà Lạt bằng máy bay cho tôi
+    - Tìm máy bay
+    - Tìm kiếm máy bay
+    - Dịch vụ máy bay
+    - Tìm vé máy bay
+    - tìm hãng
+    - tìm hãng máy bay
+    - Tìm hãng hàng không
+    - Danh sách hãng hàng không
+    - Tìm chuyến bay
+- intent: tim_phuong_tien_noi_o_da_lat
+  examples: |
+    - Tìm phương tiện đi trong nội ôthành phố
+    - Phương tiện đi quanh thành phố Đà Lạt
+    - Phương tiện di chuyển trong thành phố Đà Lạt
+    - Xe cộ đi quanh thành phố Đà Lạt
+- intent: dat_xe_may_noi_o
+  examples: |
+    - Tìm dịch vụ thuê xe máy
+    - xe máy
+    - xe máy nội ô
+    - thuê xe máy nội ô
+    - Tìm dịch vụ thuê xe máy nội ô
+    - Tôi muốn tìm dịch vụ thuê xe máy
+- intent: dat_taxi_noi_o
+  examples: |
+    - xe khách nội ô Đà Lạt
+    - xe 4 chỗ 6 chỗ 12 chỗ 32 chổ đà lạt
+    - xe lớn nội ô
+    - thuê xe khách nội ô
+    - Tìm dịch vụ thuê taxi
+    - taxi nội ô
+    - thuê taxi nội ô
+    - Tìm dịch vụ thuê taxi nội ô
+    - Tôi muốn tìm dịch vụ thuê taxi
+- intent: dat_grap_noi_o
+  examples: |
+    - Tìm Grap ở Đà Lạt
+    - Tìm dịch vụ Grap ở Đà Lạt
+    - Tôi muốn tìm Grap ở Đà Lạt
+- intent: tim_xe_buyt
+  examples: |
+    - Tìm xe buýt
+    - tìm xe khách
+    - xe khách
+    - xe 4 chỗ 16 chỗ 24 chỗ 32 chỗ
+    - Tìm dịch vụ du lịch Đà Lạt bằng xe buýt
+    - Tìm dịch vụ du lịch bằng xe buýt
+    - Dịch vụ du lịch Đà Lạt bằng xe buýt
+- intent: xe_phuong_trang
+  examples: |
+    - xe Phương Trang
+    - Tìm dịch vụ xe buýt Phương Trang
+    - Dịch vụ xe buýt Phương Trang
+- intent: xe_thanh_buoi
+  examples: |
+    - xe Thành Bưởi
+    - Tìm dịch vụ xe buýt Thành Bưởi
+    - Dịch vụ xe buýt Thành Bưởi
+- intent: xe_mai_linh
+  examples: |
+    - xe Mai Linh
+    - Tìm dịch vụ xe buýt Mai Linh
+    - Dịch vụ xe buýt Mai Linh
+- intent: xe_hai_van
+  examples: |
+    - xe Hải Vân
+    - Tìm dịch vụ xe buýt Hải Vân
+    - Dịch vụ xe buýt Hải Vân
+- intent: xe_hoa_mai
+  examples: |
+    - xe Hoa Mai
+    - Tìm dịch vụ xe buýt Hoa Mai
+    - Dịch vụ xe buýt Hoa Mai
+- intent: tim_noi_o
+  examples: |
+    - nơi ở
+    - chúng tôi ở đâu
+    - nên ở đâu
+    - chỗ lưu trú
+    - lưu trú
+    - lưu trú ở đâu
+    - Ở đâu khi đến Đà Lạt
+    - Tìm dịch vụ chỗ ở
+    - Tìm dịch vụ nơi ở
+- intent: homestay
+  examples: |
+    - Tìm dịch vụ homestay
+    - Homestay
+    - Tìm homestay
+    - Homestay ở Đà Lạt
+- intent: hostel
+  examples: |
+    - Tìm dịch vụ hostel
+    - Hostel
+    - Tìm hostel
+    - Hostel ở Đà Lạt
+- intent: khach_san
+  examples: |
+    - hotel
+    - Tìm dịch vụ khách sạn
+    - Khách sạn
+    - Tìm khách sạn
+    - Khách sạn ở Đà Lạt
+- intent: nha_nghi
+  examples: |
+    - nhà nghỉ
+    - Tìm dịch vụ nhà nghỉ
+    - Tìm nhà nghỉ
+    - kiếm nhà nghỉ
+    - nhà nghỉ ở Đà Lạt
+- intent: tim_do_an_ngon
+  examples: |
+    - nên ăn gì, ở đâu?
+    - đồ ăn ngon rẻ
+    - tìm nên ăn gì?
+    - tìm đồ ăn ngon và rẻ
+    - đồ ăn ngon
+    - đồ ăn rẻ
+    - ăn gì
+    - ăn uống
+    - thông tin ẩm thực
+    - tìm đồ ăn
+    - tìm thông tin ẩm thực
+    - tìm thông tin ăn uống
+    - thông tin đồ ăn
+    - nên ăn gì?
+- intent: cf_view
+  examples: |
+    - quán cà phê
+    - quán cf
+    - tìm quán cf
+    - tìm quán cà phê
+    - quán cà phê view
+    - quán cf view
+    - tìm quán cf view
+    - tìm quán cà phê view
+    - quán cà phê chụp ảnh hình
+    - quán cf chụp ảnh hình
+    - tìm quán cf chụp ảnh hình
+    - tìm quán cà phê chụp ảnh hình
+- intent: mua_qua_ki_niem
+  examples: |
+    - nên mua quà tặng gì làm kỉ niệm
+    - nên mua quà tặng quà kỉ niệm
+    - nên mua quà tặng
+    - nên mua quà tặng gì
+    - nên mua quà kỉ niệm gì
+    - bán quà gì
+    - bán đồ lưu niệm gì
+    - nên mua đồ lưu niệm gì
+    - quà lưu niệm kỉ niệm quà tặng có gì
+    - đến đây nên mua gì về
+    - mua gì về nhà
+    - nên mua gì về nhà khi đi đến đi về
+    - quà biếu
+    - mua quà biếu
+    - quà lưu niệm
+- intent: dia_chi_mua_qua_ki_niem
+  examples: |
+    - địa chỉ mua quà
+    - địa chỉ mua quà biếu quà tặng
+    - địa chỉ mua quà biếu
+    - cho tôi địa chỉ mua quà
+    - cho tôi địa chỉ mua quà biếu quà tặng
+    - cho tôi địa chỉ mua quà biếu
+    - tìm địa chỉ mua quà
+    - tìm địa chỉ mua quà biếu quà tặng
+    - tìm địa chỉ mua quà biếu

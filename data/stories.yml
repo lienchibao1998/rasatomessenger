@@ -1,0 +1,185 @@
+version: "3.1"
+
+stories:
+
+- story: Chào hỏi và hỗ trợ thông tin
+  steps:
+    - intent: chao_hoi
+    - action: utter_chao_hoi
+    - intent: ho_tro
+    - action: utter_ho_tro
+
+- story: Chức năng tìm địa điểm du lịch nổi tiếng
+  steps:
+    - intent: diadiemdulich
+    - action: utter_ask_diadiemdulich
+    - action: action_tim_ds_diadiem_dldl
+    - action: utter_show_diadiemdulich
+    
+
+- story: Hỏi về thông tin thời tiết tốt nhất
+  steps:
+    - intent: thoi_tiet_tot_nhat
+    - action: utter_thoi_tiet_tot_nhat
+
+- story: Hỏi về thông tin thời tiết theo mùa
+  steps:
+    - intent: tim_thang_1_den_thang_3
+    - action: utter_tim_thang_1_den_thang_3
+
+    # Thêm các story khác tương tự cho mùa 4-6, 7-9, 10-12
+
+- story: Hỏi về thông tin về chi phí chuyến đi
+  steps:
+    - intent: tong_chi_phi
+    - action: utter_tong_chi_phi
+
+    # Thêm các story khác tương tự cho phương tiện, đặt vé, đặt chỗ, và các chức năng khác
+
+- story: Tạm biệt
+  steps:
+    - intent: tam_biet
+    - action: utter_tam_biet
+
+- story: Hỏi về thông tin phương tiện đến Đà Lạt
+  steps:
+    - intent: phuong_tien_den_da_lat
+    - action: utter_phuong_tien_den_da_lat
+
+- story: Tìm thông tin máy bay
+  steps:
+    - intent: tim_may_bay
+    - action: utter_tim_may_bay
+    - action: action_tim_may_bay
+    - action: utter_show_action_tim_may_bay
+
+- story: Hỏi về các phương tiện nội địa ở Đà Lạt
+  steps:
+    - intent: tim_phuong_tien_noi_o_da_lat
+    - action: utter_tim_phuong_tien_noi_o_da_lat
+
+- story: Đặt taxi
+  steps:
+    - intent: dat_taxi_noi_o
+    - action: utter_dat_taxi_noi_o
+    - action: action_gia_thue_xe_taxi_noi_o
+    - action: utter_show_action_gia_thue_xe_taxi_noi_o
+    - action: utter_dat_xe_khach_noi_o
+
+- story: Đặt Grap
+  steps:
+    - intent: dat_grap_noi_o
+    - action: utter_dat_grap_noi_o
+
+- story: Tìm xe buýt
+  steps:
+    - intent: tim_xe_buyt
+    - action: utter_tim_xe_buyt
+
+- story: khách sạn hotel
+  steps:
+    - intent: khach_san
+    - action: utter_khach_san
+    - action: action_khach_san
+    - action: utter_show_action_khach_san
+
+- story: homestay
+  steps:
+    - intent: homestay
+    - action: utter_homestay
+    - action: action_homestay
+    - action: utter_show_action_homestay
+
+
+- story: cà phê view
+  steps:
+    - intent: cf_view
+    - action: utter_cf_view
+    - action: action_cf_view
+    - action: utter_show_action_cf_view
+    - action: utter_cf_view_them
+
+- story: quà kỉ niệm
+  steps:
+    - intent: mua_qua_ki_niem
+    - action: utter_mua_qua_ki_niem
+    - action: action_mua_qua_ki_niem
+    - action: utter_show_action_mua_qua_ki_niem
+
+- story: tìm đồ ăn ngon
+  steps:
+    - intent: tim_do_an_ngon
+    - action: utter_tim_do_an_ngon
+    - action: action_tim_do_an_ngon
+    - action: utter_show_action_tim_do_an_ngon
+    - action: utter_tim_them_do_an_ngon
+
+- story: interactive_story_1
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: cf_view
+  - action: utter_cf_view
+  - action: action_cf_view
+  - action: utter_show_action_cf_view
+
+- story: tìm xe khách xe buýt
+  steps:
+    - intent: tim_xe_buyt
+    - action: utter_tim_xe_buyt
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm xe khách xe buýt phương trang
+  steps:
+    - intent: xe_phuong_trang
+    - action: utter_xe_phuong_trang
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm xe khách xe buýt thành bưởi
+  steps:
+    - intent: xe_thanh_buoi
+    - action: utter_xe_thanh_buoi
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm xe khách xe buýt Mai linh
+  steps:
+    - intent: xe_mai_linh
+    - action: utter_xe_mai_linh
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm xe khách xe buýt hải vân
+  steps:
+    - intent: xe_hai_van
+    - action: utter_xe_hai_van
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm xe khách xe buýt Hoa Mai
+  steps:
+    - intent: xe_hoa_mai
+    - action: utter_xe_hoa_mai
+    - action: action_tim_nha_xe
+    - action: utter_show_action_tim_nha_xe
+
+- story: tìm nhà nghỉ đà lạt
+  steps:
+    - intent: nha_nghi
+    - action: utter_nha_nghi
+    - action: action_tim_nha_nghi_dalat
+    - action: utter_show_action_tim_nha_nghi_dalat
+- story: tìm hostel đà lạt
+  steps:
+    - intent: hostel
+    - action: utter_hostel
+    - action: action_tim_hostel_dalat
+    - action: utter_show_action_tim_hostel_dalat
+
+- story: tìm nơi ở đà lạt
+  steps:
+    - intent: tim_noi_o
+    - action: action_chon_loai_noi_o
+    - action: utter_tim_noi_o

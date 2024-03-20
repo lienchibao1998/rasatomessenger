@@ -1,0 +1,199 @@
+version: '3.1'
+intents:
+- cam_on
+- cf_view
+- chao_hoi
+- dat_grap_noi_o
+- dat_taxi_noi_o
+- dat_xe_may_noi_o
+- dia_chi_mua_qua_ki_niem
+- diadiemdulich
+- ho_tro
+- homestay
+- hostel
+- khach_san
+- khong_hieu_cau_hoi
+- mua_qua_ki_niem
+- nha_nghi
+- tim_noi_o
+- phuong_tien_den_da_lat
+- tam_biet
+- thoi_tiet_tot_nhat
+- tim_do_an_ngon
+- tim_hang_may_bay
+- tim_may_bay
+- tim_phuong_tien_noi_o_da_lat
+- tim_thang_10_den_thang_12
+- tim_thang_1_den_thang_3
+- tim_thang_4_den_thang_6
+- tim_thang_7_den_thang_9
+- tim_xe_buyt
+- tong_chi_phi
+- xe_hai_van
+- xe_hoa_mai
+- xe_mai_linh
+- xe_phuong_trang
+- xe_thanh_buoi
+responses:
+  utter_chao_hoi:
+  - text: "Xin chào quý khách! Em là bot tư vấn của thành phố mộng mơ Đà Lạt. Anh chị cần giúp gì đừng ngần ngại hỏi em nhé..."
+  utter_tam_biet:
+  - text: "Hẹn gặp lại! tạm biệt anh chị...<3"
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_cam_on:
+  - text: "Cảm ơn anh chị ạ! Anh/chị còn cần hỗ trợ gì không ạ?"
+  utter_khong_hieu_cau_hoi:
+  - text: "Em không hiểu anh chị nói gì cả. Anh chị vui lòng nhắn lại điều anh chị thắc mắc nha..."
+  utter_ho_tro:
+  - text: "
+      Chào anh chị!. Hiện tại em có thể cung cấp một số thông tin về: 
+      1. Xem thời gian tốt nhất để đến Đà Lạt 
+      2. Chi phí tổng cả chuyến đi 
+      3. Phương tiện để đến Đà Lạt 
+      4. Nên ở khách sạn, nhà trọ hay homestay? 
+      5. Một số Địa điểm du lịch nổi tiếng 
+      6. Nơi có Đồ ăn ngon và rẻ 
+      7. Nơi check in ảo với các quán cà phê cực kỳ đẹp, nơi Anh/chị nên đi vào ban đêm 
+      8. Mua quà gì làm lưu niệm? 
+      9. Và một số trải nghiệm nhỏ khi đến Đà Lạt nữa ạ. 
+
+       Anh/chị cần gì nhắn em nhá?"
+  utter_thoi_tiet_tot_nhat:
+  - text: "
+      Xin chào Anh/chị. Thời tiết ở Đà Lạt sẽ diễn biến theo mùa... 
+       Mùa 1 từ tháng 1 đến tháng 3. 
+       Mùa 2 từ tháng 4 đến tháng 6. 
+       Mùa 3 từ tháng 7 đến tháng 9. 
+       Và mùa 4 từ tháng 10 đến tháng 12. 
+      Anh chị muốn biết thông tin thời tiết của mùa hay tháng nào ạ?"
+
+  utter_tim_thang_1_den_thang_3:
+  - text: "À dạ! Thời tiết mà Anh/chị đang quan tâm trong thời gian này là tuyệt vời nhất. Anh/chị sẽ cảm nhận hương vị của mùa xuân tại cao nguyên. Thời tiết vào thời điểm này vẫn còn hơi lạnh của mùa đông, nhưng lại được tô điểm bởi những tia nắng ấm áp, và không có mưa nên Anh/chị có thể thoải mái khám phá các địa điểm. 
+          \nNgoài ra, hàng trăm loại hoa nở vào mùa xuân, nếu Anh/chị thích vẻ đẹp thơ mộng và thích ngắm hoa, đây là dịp lý tưởng. Anh/chị sẽ được thưởng thức mùa hoa dã quỳ trắng, mùa hoa anh đào, mùa hoa dạ yến thảo."
+
+  utter_tim_thang_4_den_thang_6:
+  - text: "À dạ! Từ cuối tháng 4 là thời điểm chuyển mùa từ mùa khô sang mùa mưa, nên nhiệt độ thấp hơn, điều này có nghĩa là thời tiết mát mẻ và dễ chịu hơn nhiều. Tháng này được xem là tháng lý tưởng nhất trong năm. Trong tháng 5 và tháng 6, có mưa ở Đà Lạt. Thông thường vào buổi trưa và chiều sẽ có mưa đột ngột, nhưng thường chỉ kéo dài 1-2 giờ."
+  
+  utter_tim_thang_7_den_thang_9:
+  - text: "À vâng! Nếu Anh/chị muốn trải nghiệm một chuyến đi độc đáo và lạ lùng, Anh/chị có thể chọn những tháng này. \nThời tiết vào thời điểm này rất mát mẻ, ngay cả vào tháng 9, buổi tối và buổi sáng nhiệt độ chỉ khoảng 18 - 20 độ C, nhưng ban ngày thì cực kỳ mát mẻ và thoải mái. Với loại thời tiết này, không có gì lý tưởng hơn để bắt đầu hành trình khám phá thiên đường ẩm thực của Đà Lạt."
+
+  utter_tim_thang_10_den_thang_12:
+  - text: "À vâng! Thời tiết bắt đầu trở lạnh vào buổi sáng và buổi tối, sương mù cũng xuất hiện nhiều hơn, cảnh đẹp trở nên lãng mạn hơn bao giờ hết. \nAnh/chị sẽ được thưởng thức mùi hương của hoa đậu quý và mùi hương của cỏ hồng."
+
+  utter_tong_chi_phi:
+  - text: "Theo Em, chi phí tổng cả chuyến đi dự kiến từ 2 triệu đến 5 triệu cho mỗi người. Phụ thuộc vào số ngày Anh/chị đi và chi phí ăn uống và thăm quan. Anh/chị có thể tự tính toán và điều chỉnh các chi phí hợp lý để tiết kiệm nhiều nhất cho chuyến đi này."
+
+  utter_phuong_tien_den_da_lat:
+  - text: "Anh/chị nên đi bằng dịch vụ máy bay nếu ở xa hoặc bằng dịch vụ xe buýt. \nAnh chị gõ 'tìm máy bay' or 'tìm xe buýt' để tìm hãng máy bay hoặc nhà xe theo nhu cầu cho riêng mình ạ."
+  
+  utter_tim_may_bay:
+  - text: "Xin chào anh/chị! Dịch vụ hàng không hiện nay khá rẻ (trừ những dịp lễ và gần Tết), vé máy bay khởi hành từ Hà Nội, Sài Gòn đến Đà Lạt, giá chỉ từ 370.000 - 2.000.000 VND tùy thuộc vào loại và thời gian. Check thông tin từng hãng máy bay tại đây."
+  utter_show_action_tim_may_bay:
+  - custom:
+      payload: action_tim_may_bay
+
+  utter_tim_phuong_tien_noi_o_da_lat:
+  - text: "À dạ. Có ba loại phương tiện cho thuê nội ô là 'xe máy', 'taxi', 'Grap', Anh/chị muốn chọn loại nào gõ giúp em ạ."
+  
+  utter_dat_xe_khach_noi_o:
+  - text: "Cũng tùy Dịch vụ thuê xe ô tô, giá chỉ dao động từ 80k - 120k tùy thuộc vào loại xe bạn thuê. Nếu anh chị bận rộn có thể liên hệ trực tiếp với chị Hoa tại 0903.612.443 để được tư vấn chi tiết hơn."
+  
+  utter_dat_taxi_noi_o:
+  - text: "Chào anh chị. Dưới đây là bảng giá dịch vụ:"
+  utter_show_action_gia_thue_xe_taxi_noi_o:
+  - custom:
+      payload: action_gia_thue_xe_taxi_noi_o
+
+  utter_dat_grap_noi_o:
+  - text: "Giống như ở mọi nơi, Đà Lạt vẫn có GrapBike, Graptaxi. Anh chị vui lòng mở app để checkin chọn phương tiện này để có giá cả rõ ràng đến các điểm tham quan và tránh việc chạy qua chạy lại của taxi ở đây.Số tổng đài hỗ trợ: 0902 343 203."
+  
+  utter_tim_xe_buyt:
+  - text: "Vâng. Tùy theo nơi anh chị ở ạ.Ví dụ như nếu Anh/chị cần di chuyển từ Cần Thơ đến Đà Lạt bằng xe buýt,sẽ mất khoảng 11-12 giờ đi xe. 
+          \nNếu anh chị không đi xe gia đình, có 4 nhà xe cho anh chị lựa chọn ạ:"
+  utter_show_action_tim_nha_xe:
+  - custom:
+      payload: action_tim_nha_xe
+  
+  utter_xe_phuong_trang:
+  - text: "Dưới đây là thông tin nhà xe Phương Trang. Bên cạnh đó còn 1 số nhà xe khách cho anh chị tham khảo ạ."
+  utter_xe_thanh_buoi:
+  - text: "Dưới đây là thông tin nhà xe Thành Bưởi. Bên cạnh đó còn 1 số nhà xe khách cho anh chị tham khảo ạ."
+  utter_xe_mai_linh:
+  - text: "Dưới đây là thông tin nhà xe Mai Linh. Bên cạnh đó còn 1 số nhà xe khách cho anh chị tham khảo ạ."
+  utter_xe_hai_van:
+  - text: "Dưới đây là thông tin nhà xe Hải Vân. Bên cạnh đó còn 1 số nhà xe khách cho anh chị tham khảo ạ."
+  utter_xe_hoa_mai:
+  - text: "Dưới đây là thông tin nhà xe Hoa Mai. Bên cạnh đó còn 1 số nhà xe khách cho anh chị tham khảo ạ."
+
+  utter_homestay:
+  - text: "Dưới đây là danh sách các homestay nổi tiếng ở Đà Lạt, Anh chị tham khảo để đi dần nhé."
+  utter_show_action_homestay:
+  - custom:
+      payload: action_homestay
+  
+  utter_hostel:
+  - text: "Dưới đây là top 5 nhà nghỉ giá rẻ ạ: \n"
+  utter_show_action_tim_hostel_dalat:
+  - custom:
+      payload: action_tim_hostel_dalat
+
+  utter_khach_san:
+  - text: "Dưới đây là một số khách sạn được yêu thích nhất trong thời gian qua:\n"
+  utter_show_action_khach_san:
+  - custom:
+      payload: action_khach_san
+
+  utter_nha_nghi:
+  - text: "Dưới đây là top 5 nhà nghỉ giá rẻ ạ: \n"
+  utter_show_action_tim_nha_nghi_dalat:
+  - custom:
+      payload: action_tim_nha_nghi_dalat
+
+  utter_tim_do_an_ngon:
+  - text: "Top 10 món ăn ngon Đà Lạt dành cho anh/chị:\n"
+  utter_show_action_tim_do_an_ngon:
+  - custom:
+      payload: action_tim_do_an_ngon
+  utter_tim_them_do_an_ngon:
+  - text: "Anh/chị vui lòng truy cập https://www.traveloka.com/vi-vn/explore/activities/top-30-mon-an-ngon-da-lat/59226 để xem tiếp các món ăn nhé..."
+
+  utter_cf_view:
+  - text: "Dưới đây là top 10 cà phê view được giới trẻ yêu thích ạ:\n"
+  utter_show_action_cf_view:
+  - custom:
+      payload: action_cf_view
+  utter_cf_view_them:
+  - text: "Anh/chị vui lòng truy cập https://vinwonders.com/vi/bai-viet-du-lich/quan-ca-phe-dep-o-da-lat để xem tiếp các quán cà phê nhé..."
+
+  utter_mua_qua_ki_niem:
+  - text: "Anh chị có thể chia thành từng nhóm đối tượng muốn tặng để lựa chọn quà phù hợp. Chẳng hạn, với người cao tuổi, anh/chị có thể mua trà Atiso, tranh gỗ; với người trẻ có thể mua đồ len, đồ thổ cẩm, lụa tơ tằm và với các gia đình thì chọn mua mứt hoa quả là hợp lý.
+          \nTổng hợp những món quà lưu niệm ở Đà Lạt đầy ý nghĩa:"
+  utter_show_action_mua_qua_ki_niem:
+  - custom:
+      payload: action_mua_qua_ki_niem
+
+  utter_ask_diadiemdulich:
+  - text: "Xin chào anh chị! \nDưới đây là top 9 địa điểm gợi ý nổi tiếng ở Đà Lạt...Em sẽ show dưới dạng cuộn ảnh ạ!"
+  utter_show_diadiemdulich:
+  - custom:
+      payload: action_tim_ds_diadiem_dldl
+
+  utter_tim_noi_o:
+  - text: "Dưới đây là 4 loại hình nơi ở khi đến Đà Lạt. Anh/chị chọn loại hình nào nhắn em để em tìm kiếm nhé"
+
+actions:
+- action_chon_loai_noi_o
+- action_cf_view
+- action_tim_ds_diadiem_dldl
+- action_gia_thue_xe_taxi_noi_o
+- action_tim_may_bay
+- action_khach_san
+- action_mua_qua_ki_niem
+- action_homestay
+- action_tim_do_an_ngon
+- action_tim_nha_xe
+- action_tim_nha_nghi_dalat
+- action_tim_hostel_dalat
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

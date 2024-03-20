@@ -1,0 +1,10 @@
+version: "3.1"
+
+rules:
+
+- rule: Handle user request to find travel destinations
+  steps:
+    - intent: diadiemdulich
+    - action: utter_ask_diadiemdulich
+    - action: action_tim_ds_diadiem_dldl
+    - action: utter_show_diadiemdulich
